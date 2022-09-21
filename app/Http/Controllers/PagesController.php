@@ -10,7 +10,7 @@ class PagesController extends Controller
 {
     public function home() {
         $data = [
-            'name'=>'Pranjal',
+            'name'=>'Abhinav',
             'age'=>18
         ];
         return view('welcome')->with($data);
@@ -18,7 +18,7 @@ class PagesController extends Controller
 
     public function profile(){
         $data1=[
-            'username'=>'Pranjal'
+            'username'=>'Abhinav'
         ];
         return view('profile')->with($data1);
     }
